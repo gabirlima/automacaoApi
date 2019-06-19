@@ -23,5 +23,4 @@ public class BaseService {
         api_key = prop.getProperty("P_KEY");
         hash = prop.getProperty("HASH");
     }
-
 }

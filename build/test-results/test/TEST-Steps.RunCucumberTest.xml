@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Steps.RunCucumberTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="MacBook-Air-de-Gabriela.local" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Funcionalidade: Characters - Personagens
+
+  Esquema do Cenario: Consultar personagens por id ?[90m# src/test/resources/Features/Characters.feature:4?[0m
+    ?[36mQuando consulto o id "<id>"?[0m
+    ?[36mEntao o status code do retorno deve ser <statusCode>?[0m
+    ?[36mE deve ser retornado o personagem "<personagem>"?[0m
+
+    Exemplos: 
+
+  Esquema do Cenario: Consultar personagens por id ?[90m# src/test/resources/Features/Characters.feature:11?[0m
+    ?[32mQuando ?[0m?[32mconsulto o id ?[0m?[32m?[1m"1009368"?[0m                 ?[90m# CharactersSteps.consultoOId(String)?[0m
+    ?[32mEntao ?[0m?[32mo status code do retorno deve ser ?[0m?[32m?[1m200?[0m    ?[90m# CharactersSteps.oStatusCodeDoRetornoDeveSer(int)?[0m
+    ?[32mE ?[0m?[32mdeve ser retornado o personagem ?[0m?[32m?[1m"Iron Man"?[0m   ?[90m# CharactersSteps.deveSerRetornadoOPersonagem(String)?[0m
+
+  Esquema do Cenario: Consultar personagens por id ?[90m# src/test/resources/Features/Characters.feature:12?[0m
+    ?[32mQuando ?[0m?[32mconsulto o id ?[0m?[32m?[1m"1009610"?[0m                 ?[90m# CharactersSteps.consultoOId(String)?[0m
+    ?[32mEntao ?[0m?[32mo status code do retorno deve ser ?[0m?[32m?[1m200?[0m    ?[90m# CharactersSteps.oStatusCodeDoRetornoDeveSer(int)?[0m
+    ?[32mE ?[0m?[32mdeve ser retornado o personagem ?[0m?[32m?[1m"Spider-Man"?[0m ?[90m# CharactersSteps.deveSerRetornadoOPersonagem(String)?[0m
+
+  Esquema do Cenario: Consultar personagens por id  ?[90m# src/test/resources/Features/Characters.feature:13?[0m
+    ?[32mQuando ?[0m?[32mconsulto o id ?[0m?[32m?[1m"1009189"?[0m                  ?[90m# CharactersSteps.consultoOId(String)?[0m
+    ?[32mEntao ?[0m?[32mo status code do retorno deve ser ?[0m?[32m?[1m200?[0m     ?[90m# CharactersSteps.oStatusCodeDoRetornoDeveSer(int)?[0m
+    ?[32mE ?[0m?[32mdeve ser retornado o personagem ?[0m?[32m?[1m"Black Widow"?[0m ?[90m# CharactersSteps.deveSerRetornadoOPersonagem(String)?[0m
+
+  Esquema do Cenario: Consultar personagens por id ?[90m# src/test/resources/Features/Characters.feature:14?[0m
+    ?[32mQuando ?[0m?[32mconsulto o id ?[0m?[32m?[1m"1009351"?[0m                 ?[90m# CharactersSteps.consultoOId(String)?[0m
+    ?[32mEntao ?[0m?[32mo status code do retorno deve ser ?[0m?[32m?[1m200?[0m    ?[90m# CharactersSteps.oStatusCodeDoRetornoDeveSer(int)?[0m
+    ?[32mE ?[0m?[32mdeve ser retornado o personagem ?[0m?[32m?[1m"Hulk"?[0m       ?[90m# CharactersSteps.deveSerRetornadoOPersonagem(String)?[0m
+
+  Esquema do Cenario: Consultar personagens por id ?[90m# src/test/resources/Features/Characters.feature:15?[0m
+    ?[32mQuando ?[0m?[32mconsulto o id ?[0m?[32m?[1m"1009664"?[0m                 ?[90m# CharactersSteps.consultoOId(String)?[0m
+    ?[32mEntao ?[0m?[32mo status code do retorno deve ser ?[0m?[32m?[1m200?[0m    ?[90m# CharactersSteps.oStatusCodeDoRetornoDeveSer(int)?[0m
+    ?[32mE ?[0m?[32mdeve ser retornado o personagem ?[0m?[32m?[1m"Thor"?[0m       ?[90m# CharactersSteps.deveSerRetornadoOPersonagem(String)?[0m
+
+  Esquema do Cenario: Consultar personagens por id      ?[90m# src/test/resources/Features/Characters.feature:16?[0m
+    ?[32mQuando ?[0m?[32mconsulto o id ?[0m?[32m?[1m"1009220"?[0m                      ?[90m# CharactersSteps.consultoOId(String)?[0m
+    ?[32mEntao ?[0m?[32mo status code do retorno deve ser ?[0m?[32m?[1m200?[0m         ?[90m# CharactersSteps.oStatusCodeDoRetornoDeveSer(int)?[0m
+    ?[32mE ?[0m?[32mdeve ser retornado o personagem ?[0m?[32m?[1m"Captain America"?[0m ?[90m# CharactersSteps.deveSerRetornadoOPersonagem(String)?[0m
+
+  Esquema do Cenario: Consultar personagens por id ?[90m# src/test/resources/Features/Characters.feature:17?[0m
+    ?[32mQuando ?[0m?[32mconsulto o id ?[0m?[32m?[1m"null"?[0m                    ?[90m# CharactersSteps.consultoOId(String)?[0m
+    ?[32mEntao ?[0m?[32mo status code do retorno deve ser ?[0m?[32m?[1m404?[0m    ?[90m# CharactersSteps.oStatusCodeDoRetornoDeveSer(int)?[0m
+    ?[32mE ?[0m?[32mdeve ser retornado o personagem ?[0m?[32m?[1m"nenhum"?[0m     ?[90m# CharactersSteps.deveSerRetornadoOPersonagem(String)?[0m
+
+  Esquema do Cenario: Consultar personagens por id ?[90m# src/test/resources/Features/Characters.feature:18?[0m
+    ?[32mQuando ?[0m?[32mconsulto o id ?[0m?[32m?[1m"1"?[0m                       ?[90m# CharactersSteps.consultoOId(String)?[0m
+    ?[32mEntao ?[0m?[32mo status code do retorno deve ser ?[0m?[32m?[1m404?[0m    ?[90m# CharactersSteps.oStatusCodeDoRetornoDeveSer(int)?[0m
+    ?[32mE ?[0m?[32mdeve ser retornado o personagem ?[0m?[32m?[1m"nenhum"?[0m     ?[90m# CharactersSteps.deveSerRetornadoOPersonagem(String)?[0m
+
+  Esquema do Cenario: Consultar personagens por id ?[90m# src/test/resources/Features/Characters.feature:19?[0m
+    ?[32mQuando ?[0m?[32mconsulto o id ?[0m?[32m?[1m"00"?[0m                      ?[90m# CharactersSteps.consultoOId(String)?[0m
+    ?[32mEntao ?[0m?[32mo status code do retorno deve ser ?[0m?[32m?[1m404?[0m    ?[90m# CharactersSteps.oStatusCodeDoRetornoDeveSer(int)?[0m
+    ?[32mE ?[0m?[32mdeve ser retornado o personagem ?[0m?[32m?[1m"nenhum"?[0m     ?[90m# CharactersSteps.deveSerRetornadoOPersonagem(String)?[0m
+
+9 Scenarios (?[32m9 passed?[0m)
+27 Steps (?[32m27 passed?[0m)
+0m11,361s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
