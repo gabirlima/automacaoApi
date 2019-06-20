@@ -8,12 +8,12 @@ pipeline {
     stages {
     
         stage('checkout') {
-        steps {
+            steps {
             deleteDir()
-            checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'Github', url: 'https://github.com/gabirlima/automacaoApi']]])
+            checkout scm
             sh label: '', script: 'chmod 754 gradlew'
+            }
         }
-    }
 
     stage('test') {
         steps {
