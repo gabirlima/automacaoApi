@@ -4,8 +4,10 @@ pipeline {
     agent {
         label 'agentId' //The id of the slave/agent where the build should be executed, if it doesn't matter use "agent any" instead.
     }
-
-    stage('checkout') {
+    
+    stages {
+    
+        stage('checkout') {
         steps {
             deleteDir()
             checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'Github', url: 'https://github.com/gabirlima/automacaoApi']]])
@@ -22,6 +24,8 @@ pipeline {
                         junit '**/build/test-results/test/*.xml' //make the junit test results available in any case (success & failure)
                     }
                 }
+            }
         }
     }
+    
 }
